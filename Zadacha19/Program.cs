@@ -4,12 +4,6 @@
 //12821 -> да
 //23432 -> да
 
-Console. Clear(); 
-Console.WriteLine("Программа определит, является ли введенное Вами пятизначное число ПАЛИНДРОМОМ");
-Console.WriteLine("");
-Console.Write("Введите пятизначное число: ");
-int number =int.Parse(Console.ReadLine()); 
-
 // Метод - определяет: пятизначное число или нет
 bool plndrStatus(int fiveSign)
 {
@@ -41,6 +35,13 @@ bool plndrYesOrNow (int polindr)
     }
 
 //Собственно сама программа
+
+Console. Clear(); 
+Console.WriteLine("Программа определит, является ли введенное Вами пятизначное число ПАЛИНДРОМОМ");
+Console.WriteLine("");
+Console.Write("Введите пятизначное число: ");
+int number =int.Parse(Console.ReadLine()); 
+
 if (plndrStatus(number))
 {
     if (plndrYesOrNow (number))
